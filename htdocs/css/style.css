@@ -1,0 +1,112 @@
+* {
+	outline: none;
+}
+
+header {
+	display: flex;
+	box-sizing: border-box;
+	border-bottom: 2px solid silver;
+	background-color: #DFDFDF;
+	justify-content: space-between;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	min-height: 100vh;
+}
+
+footer {
+	width: 100vw;
+	min-height: 50px;
+	height: 9vh;
+	min-width: 100vw;
+	border-top: 2px solid silver;
+	background-color: #DFDFDF;
+	margin-top: auto;
+}
+
+a {
+	color:#875151;
+	text-decoration: none;
+	-webkit-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-o-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+}
+
+a:hover {
+	color: #500E0E;
+}
+
+.logo {
+	width: 192px;
+	height: 80px;
+	float: left;
+	text-align: center;
+	background-color: #F38787;
+	border-right: 1px solid #9D7575;
+}
+
+.logo img {
+	height: 100%;
+}
+
+.logo img:hover {
+	filter: invert(1);
+}
+
+.act {
+	width: 192px;
+	height: 80px;
+	background-color: #F38787;
+	border-left: 1px solid #9D7575;
+}
+
+.act img {
+	height: 100%;
+	width: 45%;
+}
+
+.act img:hover {
+	filter: invert(0.3);
+}
+
+
+.container {
+	width: 15vw;
+}
+
+.content {
+	width: 30vw;
+	min-width: 250px;
+	margin-left: 30%;
+	margin-top: 5%;
+}
+
+.tour {
+	padding: 5px;
+	margin: 10px 0 10px 0;
+	width: 30vw;
+	min-width: inherit;
+	border: 2px solid #8DCD8D;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.text {
+	width: auto;
+	height: 100%;
+	flex: 3;
+	
+}
+
+.tour form {
+	height: 100%;
+	widows: auto;
+	flex: 1;
+}
